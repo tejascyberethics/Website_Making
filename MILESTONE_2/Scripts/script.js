@@ -14,15 +14,27 @@ let x = document.createElement("h1") // creates a DOM element and stores a refer
 document.body.appendChild(x)// attaches x to the DOM so it becomes visible and managed by the browser. now it is physical
 x.innerHTML="X" // edits the text INNER HTML. MEANING IT EDITS THE TXT TO OUR DESIRED OUTPUT TO THE PHYSICAL ELEMENT
 
-for (let n = 0; n < 5; n++) {    // just see the syntax of for loop
-    let n = document.createElement("span") // again the previous one
-    document.body.appendChild(n) // again
-    document.body.appendChild(document.createElement("br")) //this is intersting. insted of assigning a value of x and then making a DOM and then making appended to the html. it makes a element named <br> on the DOM, then instantly it adds to the thing
-    for (let j = 0; j < 5; j++) {
-        n.innerHTML = j
-        // j++
-    }
+// for (let n = 0; n < 5; n++) {    // just see the syntax of for loop
+//     let n = document.createElement("span") // again the previous one
+//     document.body.appendChild(n) // again
+//     document.body.appendChild(document.createElement("br")) //this is intersting. insted of assigning a value of x and then making a DOM and then making appended to the html. it makes a element named <br> on the DOM, then instantly it adds to the thing
+//     for (let j = 0; j < 5; j++) {
+//         n.innerHTML = j
+//         // j++
+//     }
+// }
+
+let n = []; // made arrays
+for (let i=0;i<5;i++) { //added 1st for loop for defining arrays
+    n[i] = document.createElement("p") //already know but insted of in a single var. its on a array 'i'th times
+    n.push(n[i]) //this pushes the array and adds new info
 }
+for (let j=0;j<5;j++) { //now this makes the real info in the website appear
+    document.body.appendChild(n[j]) //adds a element to the visible web on the Jth element of N.
+    n[j].innerHTML=`TXT ${j}` //just defines some txt
+}
+console.log(n)
+
 
 
 //if one txt of the cloned DOM is created. and its edited. it makes the text same for all
