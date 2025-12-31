@@ -16,7 +16,7 @@ input2.addEventListener('change', (event) => {
 button.addEventListener('click', function() {
     const ans = parseInt(input1.value) + parseInt(input2.value); //adding them
     console.log(ans); //outputting the value
-    result.innerText =`The Answer Is = ${ans}` // innerText means a element's in editing to the text
+    result.innerText =`The Answer Is = ${ans}` // innerText means element's in editing to the text
 
 })
 
