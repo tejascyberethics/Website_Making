@@ -32,6 +32,7 @@
 "use strict";
 
 const nav = document.querySelector("nav");
+const menu = document.createElement("div")
 // const menu = document.querySelector("div");
 let mnu = []
 const btn = document.querySelector("button");
@@ -44,8 +45,9 @@ for (let i=0;i<3;i++) { //added 1st for loop for defining arrays
     mnu.push(x) //this pushes the array and adds new info
 }
 for (let j=0;j<3;j++) { //now this makes the real info in the website appear
-    document.body.appendChild(mnu[j]) //adds a element to the visible web on the Jth element of N.
-    mnu[j].style.padding="10px";
+    menu.appendChild(mnu[j]) //adds a element to the visible web on the Jth element of N.
+    mnu[j].style.display="block"
+    mnu[j].style.padding="2px"
 }
 
 mnu[0].textContent="home";
@@ -53,6 +55,8 @@ mnu[1].textContent="contact us";
 mnu[2].textContent="about";
 
 
+
+menu.display.style = "none"
 
 
 let x = document.createElement("p")
@@ -66,7 +70,11 @@ btn.textContent="Menu";
 
 
 btn.addEventListener("click", () => {
-
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+    } else{
+        menu.style.display = "none";
+    }
 
     // if (menu.style.display === "none") {
     //     menu.style.display = "block";
