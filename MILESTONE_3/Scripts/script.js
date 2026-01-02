@@ -37,7 +37,11 @@ const menu = document.createElement("div")
 let mnu = []
 const btn = document.querySelector("button");
 btn.style.display = "";
+let check = document.querySelector(".check");
 
+check.style.display = "none";
+
+console.log(check.innerText)
 
 
 for (let i=0;i<3;i++) { //added 1st for loop for defining arrays
@@ -46,18 +50,51 @@ for (let i=0;i<3;i++) { //added 1st for loop for defining arrays
 }
 for (let j=0;j<3;j++) { //now this makes the real info in the website appear
     menu.appendChild(mnu[j]) //adds a element to the visible web on the Jth element of N.
-    mnu[j].style.display="block"
-    mnu[j].style.padding="2px"
+    mnu[j].style.display="block";
+    mnu[j].style.padding="2px";
 }
 
-mnu[0].textContent="home";
-mnu[1].textContent="contact us";
-mnu[2].textContent="about";
 
 
 
-menu.display.style = "none"
+if (check.innerText == "home") {
+    mnu[0].style.display="none";
+    mnu[1].style.display="block";
+    mnu[2].style.display="block";
 
+    mnu[1].textContent="contact us";
+    mnu[1].href= "./Pages/contact_us.html";
+
+    mnu[2].textContent="about";
+    mnu[2].href= "./Pages/about.html";
+
+} else if (check.innerText == "contact") {
+    mnu[0].style.display="block";
+    mnu[1].style.display="none";
+    mnu[2].textContent="about";
+
+    mnu[2].textContent="about";
+    mnu[2].href= "./about.html";
+
+    mnu[0].textContent="home";
+    mnu[0].href= "../index.html";
+} else if (check.innerText == "about") {
+    mnu[0].style.display="block";
+    mnu[1].style.display="block";
+    mnu[2].style.display="none";
+
+    mnu[1].textContent="contact us";
+    mnu[1].href= "./contact_us.html";
+
+    mnu[0].textContent="home";
+    mnu[0].href= "../index.html";
+}
+
+
+
+menu.style.display = "none"
+
+nav.appendChild(menu)
 
 let x = document.createElement("p")
 
@@ -82,3 +119,4 @@ btn.addEventListener("click", () => {
     //     menu.style.display = "none";
     // }
 })
+
