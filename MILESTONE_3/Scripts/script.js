@@ -54,10 +54,14 @@ for (let j=0;j<3;j++) { //now this makes the real info in the website appear
     mnu[j].style.padding="2px";
 }
 
+// mnu[0].textContent="home";
+// mnu[1].textContent="contact us";
+// mnu[2].textContent="about";
+// mnu[0].location="./index.html";
+// mnu[1].location="./Styles/contact_us.html";
+// mnu[3].location="./Styles/about.html";
 
-
-
-if (check.innerText == "home") {
+if (check.innerText === "home") {
     mnu[0].style.display="none";
     mnu[1].style.display="block";
     mnu[2].style.display="block";
@@ -68,7 +72,7 @@ if (check.innerText == "home") {
     mnu[2].textContent="about";
     mnu[2].href= "./Pages/about.html";
 
-} else if (check.innerText == "contact") {
+} else if (check.innerText === "contact") {
     mnu[0].style.display="block";
     mnu[1].style.display="none";
     mnu[2].textContent="about";
@@ -78,7 +82,7 @@ if (check.innerText == "home") {
 
     mnu[0].textContent="home";
     mnu[0].href= "../index.html";
-} else if (check.innerText == "about") {
+} else if (check.innerText === "about") {
     mnu[0].style.display="block";
     mnu[1].style.display="block";
     mnu[2].style.display="none";
@@ -97,6 +101,7 @@ menu.style.display = "none"
 nav.appendChild(menu)
 
 let x = document.createElement("p")
+
 
 
 btn.textContent="Menu";
@@ -119,4 +124,6 @@ btn.addEventListener("click", () => {
     //     menu.style.display = "none";
     // }
 })
+
+mnu[1].location=''
 
