@@ -1,0 +1,252 @@
+HTTrack3.49-2 launched on Sun, 04 Jan 2026 17:15:34 at https://madewithgsap.com/
+(httrack https://madewithgsap.com/ -W -O /Users/kryoleith_macsrt/desktop/WBST -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:15:35	Warning: 	Cache: damaged cache, trying to repair
+17:15:35	Warning: 	Cache: 23873 bytes successfully recovered in 6 entries
+17:15:35	Warning: 	File not parsed, looks like binary: https://madewithgsap.com/robots.txt
+17:15:37	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/landing/style.css.tmp already exists
+17:15:37	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/fav/favicon.svg.tmp already exists
+17:15:42	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/tutorial/prism.css.tmp already exists
+17:16:06	Warning: 	unexpected incomplete type with 200 code at https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:16:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 376420): https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:16:07	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/logo.svg.tmp already exists
+17:16:12	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/get-started.html.tmp already exists
+17:16:12	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/faq.html.tmp already exists
+17:16:14	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/login.html.tmp already exists
+17:16:14	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/enter.svg.tmp already exists
+17:16:15	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/nav/open-menu.svg.tmp already exists
+17:16:16	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/nav/close-menu.svg.tmp already exists
+17:16:17	Warning: 	engine: warning: temporary file /Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/close.svg.tmp already exists
+17:17:02	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 6177829): https://pub-8ca9b5847fbb4d4fb97b3497fb9521d5.r2.dev/hero_optim.mp4
+17:18:16	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/landing/style.css (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/landing/style.css), file disappeared: No such file or directory
+17:18:16	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/fav/favicon.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/fav/favicon.svg), file disappeared: No such file or directory
+17:18:16	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/fav/site.webmanifest (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/fav/site.html), file disappeared: No such file or directory
+17:18:16	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://madewithgsap.com/assets/img/og.jpg, '/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/og.html' could not be found on disk
+17:18:16	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/tutorial/prism.css (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/tutorial/prism.css), file disappeared: No such file or directory
+17:18:17	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/logo.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/logo.svg), file disappeared: No such file or directory
+17:18:18	Warning: 	File not parsed, looks like binary: https://madewithgsap.com:443/robots.txt
+17:18:18	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:18:18	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/get-started (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/get-started.html), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/faq (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/faq.html), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/login (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/login.html), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/enter.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/enter.svg), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/nav/open-menu.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/nav/open-menu.svg), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/nav/close-menu.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/nav/close-menu.svg), file disappeared: No such file or directory
+17:21:44	Warning: 	engine: warning: unserialize error for https://madewithgsap.com/assets/img/close.svg (/Users/kryoleith_macsrt/desktop/WBST/madewithgsap.com/assets/img/close.svg), file disappeared: No such file or directory
+17:23:03	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:03	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:03	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:03	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:04	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:04	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:21	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:21	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:43	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+17:23:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L -> /Users/kryoleith_macsrt/desktop/WBST/www.googletagmanager.com/gtag/js.89078.delayed
+17:23:45	Warning: 	link is probably looping, type unknown, aborting: https://www.googletagmanager.com/gtag/js?id=G-X8E3JZCS2L
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 10 seconds : 294 links scanned, 288 files written (41984564 bytes overall), 284 files updated [40195562 bytes received at 82031 bytes/sec], 2419662 bytes transferred using HTTP compression in 127 files, ratio 25%, 10.0 requests per connection
+(105 errors, 136 warnings, 0 messages)

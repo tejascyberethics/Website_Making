@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+madewithgsap.com	TRUE	/	FALSE	1999999999	PHPSESSID	cb0cfae996192e6bfc3056045180009c
+madewithgsap.com:443	TRUE	/	FALSE	1999999999	PHPSESSID	a73dd76301cebef6408c6309aeb8d7a5
+
